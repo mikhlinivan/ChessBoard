@@ -39,6 +39,8 @@ void check(desk *board)
             else {
                 board->figurePlaced = 0;
             }
+			board->x = i;
+			board->y = j;
         }
     }
     return board;
